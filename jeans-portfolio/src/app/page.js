@@ -33,11 +33,11 @@ export default function Home() {
           <p className='text-md py-4 leading-8 text-gray-800 dark:bg-gray-900'>As a versatile developer, my passion lies in crafting interactive experiences that merge software development, game programming, and my love for music. Please join me down below and we can chat more about it!</p>
         </div>
         <div className='text-5xl justify-center flex gap-12 py-1 text-gray-600'>
-        <a className="color group flex items-center"href="https://www.linkedin.com/in/jean-st-cloud/">
+        <a className="color group flex items-center"href="https://www.linkedin.com/in/jean-st-cloud/" alt="">
         <AiFillLinkedin size="5rem" className='ms-1 translate-x-0 relative transition duration-150 ease-in-out group-hover:transition group-hover:duration-150 group-hover:ease-in-out group-hover:translate-y-2'/>
       </a>
-      <a className="color group flex items-center" href="https://github.com/WyattChase"
-      ><AiFillGithub size="5rem" className='ms-1 translate-x-0 relative transition duration-150 ease-in-out group-hover:transition group-hover:duration-150 group-hover:ease-in-out group-hover:translate-y-2'/>
+      <a className="color group flex items-center" href="https://github.com/WyattChase" alt="">
+        <AiFillGithub size="5rem" className='ms-1 translate-x-0 relative transition duration-150 ease-in-out group-hover:transition group-hover:duration-150 group-hover:ease-in-out group-hover:translate-y-2'/>
       </a>
           
         </div>
