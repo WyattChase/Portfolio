@@ -23,8 +23,8 @@ export default function Home() {
         <nav className='py-10 mb-12 flex justify-between'>
           <h1 className='text-xl font-burtons text-blue-200'>Developed by WyattChase</h1>
           <ul className='flex items-center'>
-            <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-black dark:text-white'/></li>
-            <l1><a className='bg-gradient-to-r from-cyan-500 to-purple-500 text-white px-4 py-2 rounded-md ml-8' download href='/jeans-resume.pdf'>Resume</a></l1>
+            <li><BsFillMoonStarsFill alt="" onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-black dark:text-white'/></li>
+            <l1><a className='bg-gradient-to-r from-cyan-500 to-purple-500 text-white px-4 py-2 rounded-md ml-8' alt="" download href='/jeans-resume.pdf'>Resume</a></l1>
           </ul>
         </nav>
         <div className='text-center p-10 py-10'>
@@ -34,15 +34,15 @@ export default function Home() {
         </div>
         <div className='text-5xl justify-center flex gap-12 py-1 text-gray-600'>
         <a className="color group flex items-center"href="https://www.linkedin.com/in/jean-st-cloud/" alt="">
-        <AiFillLinkedin size="5rem" className='ms-1 translate-x-0 relative transition duration-150 ease-in-out group-hover:transition group-hover:duration-150 group-hover:ease-in-out group-hover:translate-y-2'/>
+        <AiFillLinkedin alt="" size="5rem" className='ms-1 translate-x-0 relative transition duration-150 ease-in-out group-hover:transition group-hover:duration-150 group-hover:ease-in-out group-hover:translate-y-2'/>
       </a>
       <a className="color group flex items-center" href="https://github.com/WyattChase" alt="">
-        <AiFillGithub size="5rem" className='ms-1 translate-x-0 relative transition duration-150 ease-in-out group-hover:transition group-hover:duration-150 group-hover:ease-in-out group-hover:translate-y-2'/>
+        <AiFillGithub alt="" size="5rem" className='ms-1 translate-x-0 relative transition duration-150 ease-in-out group-hover:transition group-hover:duration-150 group-hover:ease-in-out group-hover:translate-y-2'/>
       </a>
           
         </div>
         <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
-          <Image src={jaysax} layout="fill" objectFit="cover"/>
+          <Image src={jaysax} alt="" layout="fill" objectFit="cover"/>
         </div>
       </section>
       {/* <section>
