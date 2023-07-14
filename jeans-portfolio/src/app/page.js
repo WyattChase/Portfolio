@@ -4,8 +4,8 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import Image from "next/image";
 import jaysax from '../../public/jaysax.jpg';
-
 import { useState } from 'react';
+
 
 
 
@@ -24,33 +24,38 @@ export default function Home() {
           <h1 className='text-xl font-burtons text-blue-200'>Developed by WyattChase</h1>
           <ul className='flex items-center'>
             <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-black dark:text-white'/></li>
-            <l1><a className='bg-gradient-to-r from-cyan-500 to-purple-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a></l1>
+            <l1><a className='bg-gradient-to-r from-cyan-500 to-purple-500 text-white px-4 py-2 rounded-md ml-8' download href='/jeans-resume.pdf'>Resume</a></l1>
           </ul>
         </nav>
         <div className='text-center p-10 py-10'>
           <h2 className='text-5xl py-3 text-teal-600 font-medium'>Jean St. Cloud</h2>
           <h3 className='text 2xl- py-2 text-gray-300'>Software Developer and Game Programmer/Designer</h3>
-          <p className='text-md py-4 leading-8 text-gray-800'>Yada yada join me down below</p>
+          <p className='text-md py-4 leading-8 text-gray-800 dark:bg-gray-900'>As a versatile developer, my passion lies in crafting interactive experiences that merge software development, game programming, and my love for music. Please join me down below and we can chat more about it!</p>
         </div>
-        <div className='text-5xl justify-center flex gap-16 py-3 text-gray-600'>
-          <AiFillLinkedin />
-          <AiFillGithub />
+        <div className='text-5xl justify-center flex gap-12 py-1 text-gray-600'>
+        <a className="color group flex items-center"href="https://www.linkedin.com/in/jean-st-cloud/">
+        <AiFillLinkedin size="5rem" className='ms-1 translate-x-0 relative transition duration-150 ease-in-out group-hover:transition group-hover:duration-150 group-hover:ease-in-out group-hover:translate-y-2'/>
+      </a>
+      <a className="color group flex items-center" href="https://github.com/WyattChase"
+      ><AiFillGithub size="5rem" className='ms-1 translate-x-0 relative transition duration-150 ease-in-out group-hover:transition group-hover:duration-150 group-hover:ease-in-out group-hover:translate-y-2'/>
+      </a>
+          
         </div>
         <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
           <Image src={jaysax} layout="fill" objectFit="cover"/>
         </div>
       </section>
-      <section>
+      {/* <section>
         <div>
           <h3 className='text-3xl py-1'>Services I offer</h3>
-          <p className='text-md py-4 leading-8 text-gray-800'>FreeLance Games Music </p>
+          <p className='text-md py-4 leading-8 text-gray-800'>FreeLance Games Music</p>
         </div>
         <div>
           <div>
             <Image src/>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*  */}
     </main>
     </div>
