@@ -27,7 +27,7 @@ export default function Home() {
           <div className='text-center p-10 py-10'>
             <h2 className='text-5xl py-3 text-teal-600 font-medium'>Jean St. Cloud</h2>
             <h3 className='text 2xl- py-2 text-gray-300'>Software Developer and Game Programmer/Designer</h3>
-            <p className='text-md py-4 leading-8 text-gray-800 dark:bg-gray-900'>As a versatile developer, my passion lies in crafting interactive experiences that merge software development, game programming, and my love for music. Please join me down below, and we can chat more about it!</p>
+            <p className='text-md py-4 leading-8 text-gray-800 dark:text-blue-900'>As a versatile developer, my passion lies in crafting interactive experiences that merge software development, game programming, and my love for music. Please join me down below, and we can chat more about it!</p>
           </div>
           <div className='text-5xl justify-center flex gap-12 py-1 text-gray-600'>
             <a className="color group flex items-center" href="https://www.linkedin.com/in/jean-st-cloud/" alt="LinkedIn">
